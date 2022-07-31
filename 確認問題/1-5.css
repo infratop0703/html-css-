@@ -31,30 +31,16 @@ header .heading{
   margin: 0 20px;
 }
 
-.main-visual {
-  width: 100%; /* 横幅いっぱい */
-  height: 300px; /* 高さ300px */
-}
-
 .main {
-  width:900px;
-  height:700px;
-}
-
-.flexbox1{
-  width: 900px; /* 横幅840px */
-  padding: 50px;
-  height: 700px;
+  width:800px;
+  margin: 50px auto;
   display: flex; /* Flexboxの利用 */
   flex-wrap:wrap;
-  margin:0 auto;
 }
 
-.flexbox1>div{
+.main>div{
   width: 200px;
   height:200px;
-  margin:0;
-  padding:0;
 }
 
 .A{
