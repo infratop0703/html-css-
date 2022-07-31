@@ -4,43 +4,105 @@
   padding: 0;
   box-sizing: border-box;
 }
-.header{
+
+
+header{
+  width: 90%;
+  padding:20px 20px;
+  margin:0 auto;
+  text-align: center;
+}
+
+header .heading{
+  font-size:32px;
+}
+
+.nav-list{
+  border-bottom:solid 1px #848282;
+  border-top:solid 1px #848282;
+  text-align: center;
+  padding: 15px 20px;
+  margin:0 auto;
+}
+
+.nav-list-item{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.main-visual {
   width: 100%; /* 横幅いっぱい */
+  height: 300px; /* 高さ300px */
 }
-.header-top{
-  width:100%;
-  height:50px;/* heightがheader（親要素を超えないように注意） */
-  background-color: red;
+
+.main {
+  width:900px;
+  height:700px;
 }
-.header-bottom{
+
+.flexbox1{
+  width: 900px; /* 横幅840px */
+  padding: 50px;
+  height: 700px;
+  display: flex; /* Flexboxの利用 */
+  flex-wrap:wrap;
+  margin:0 auto;
+}
+
+.flexbox1>div{
+  width: 200px;
+  height:200px;
+  margin:0;
+  padding:0;
+}
+
+.A{
+  background-color:#E6FFE9;
+}
+.B{
+  background-color: #CBFFD3	;
+}
+.C{
+  background-color: #AEFFBD;
+}
+.D{
+  background-color:#93FFAB;
+}
+.E{background-color:#F3FFD8 ;}
+
+.F{
+  background-color:#EDFFBE
+}
+
+.G{
+  background-color: #E9FFA5;
+}
+
+.H{
+  background-color:#E4FF8D;
+}
+.I{
+  background-color:#D7EEFF	  ;
+}
+.J{
+  background-color:#C2EEFF;
+}
+.K{
+  background-color:#A7F1FF;
+}
+.L{background-color:#8EF1FF;}
+
+
+
+footer{
   width: 100%;
-  height:500px;
-  background-color: orange;
+  height: 120px;
+  text-align: center;/* 左右を中央揃え */
+  line-height: 120px;/* 上下を中央揃え */
+  background-color: #848282;
 }
 
-.main{
-  width: 840px;
-  display:flex;/* Flexboxの利用 */
-  margin: 0 auto;/* 中央寄せ（headerやmain-visualへの影響を防ぐ) */
-  justify-content: center;/* 子要素の横並び・中央寄せ */
-}
-
-.sidebar{
-  width: 960px;
-  height: 1400px;
-  background-color: palegreen;
-  display:flex;/* Flexboxの利用 */
-  justify-content: center;/* 子要素の横並び・中央寄せ */
-}
-
-.blog{
-  width: 500px;
-  height: 1400px;
-  background-color: limegreen;
-}
-
-.footer{
-  width:100%;
-  height:100px;
-  background-color: blue;
+.footer-text{
+  color: #fff;
 }
