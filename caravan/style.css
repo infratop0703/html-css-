@@ -3,6 +3,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color:#6c6b6b
+}
+
+a{
+  text-decoration: none;/* リンクに下線を表示しない */
 }
 
 header{
@@ -31,13 +36,11 @@ header .heading{
 .main-visual {
   width: 100%; /* 横幅いっぱい */
   height: 300px; /* 高さ300px */
-  background-color: orange; /* 背景色orange */
 }
 
 .main-visual-content {
   width: 350px; /* 横幅350px */
   height: 300px; /* 親の高さに揃える */
-  background-color: gold; /* 背景色gold */
 }
 
 .main {
@@ -50,16 +53,20 @@ header .heading{
 .blog {
   width: 600px; /* 横幅600px */
   height: 1400px; /* 高さ1400px */
-  background-color: limegreen; /* 背景色limegreen */
 }
-
 .sidebar {
   width: 240px; /* 横幅240px */
   height: 1400px; /* 高さ1400px */
-  background-color: palegreen; /* 背景色palegreen */
 }
 
 footer{
   width: 100%;
   height: 120px;
+  text-align: center;/* 左右を中央揃え */
+  line-height: 120px;/* 上下を中央揃え */
+  background-color: #848282;
+}
+
+.footer-text{
+  color: #fff;
 }
