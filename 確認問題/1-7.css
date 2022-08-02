@@ -1,0 +1,5 @@
+.header{
+  background-image: url(img/mv.jpg);
+  background-size:cover; /* 縦横比維持・背景領域を埋め尽くす（画像の表示されない部分も出てくる */
+  background-position: center;
+}
