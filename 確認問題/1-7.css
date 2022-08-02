@@ -1,5 +1,18 @@
-.header{
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color:#6c6b6b
+}
+
+.heading{
   background-image: url(img/mv.jpg);
   background-size:cover; /* 縦横比維持・背景領域を埋め尽くす（画像の表示されない部分も出てくる */
-  background-position: center;
+  background-position: bottom;
+  height: 400px;
+  width: 100%;
+}
+.heading-text{
+  padding: 20px 20px;
+
 }
