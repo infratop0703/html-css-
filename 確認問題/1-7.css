@@ -13,26 +13,23 @@
   width: 100%;
 }
 .heading-text{
-  padding: 20px 20px;
+  padding: 20px ;
 }
 
 main {
-  width: 100%;
-  display: flex; /* Flexboxの利用 */
-  justify-content: center; /* 要素の横並び・中央寄せ */
-  margin: 0 auto; /* 中央寄せ（左右に余白がないとできない） */
-}
-
-
-.blog-box{
-  padding-top: 50px;
-  padding-bottom: 30px;
   width: 840px;
-  border-bottom: 8px solid #f7f7f7;
+  margin:50px auto;
+
 }
 
-
-.blog-text{
-  padding: 25px 30px;
-  color:#6c6b6b;
+.service1{
+  padding-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
 }
+
+.service2{
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
