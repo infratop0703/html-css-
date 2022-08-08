@@ -4,3 +4,28 @@
   box-sizing: border-box;
   color:#6c6b6b
 }
+
+header{
+  background-color: #ff9a4b;
+  height: 50px;
+}
+
+main{
+  margin: 50px auto;
+  width: 960px;
+}
+
+.box{
+  width: 300px;
+  background-color: #eeeeee;
+}
+.image{
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-position: bottom;
+}
+
+footer{
+  background-color: #aaaaaa;
+  height: 50px;
+}
