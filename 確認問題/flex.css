@@ -3,3 +3,69 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+header{
+  background-color: palevioletred;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px 20px;
+}
+
+header>div{
+  background-color: pink;
+  height: 70px;
+  flex-basis: 140px;
+  margin: 0 10px;
+}
+
+header>:first-child{
+  margin-right: auto;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar{
+  width: 300px;
+  background-color: beige;
+}
+
+.content{
+  background-color: green;
+  max-width: 700px;
+  display: flex;
+  flex-grow: 1; /* 横幅の伸びる比率 */
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.content>div{
+  background-color: yellow;
+  margin:10px;
+  flex-basis:200px;
+  height: 130px;
+}
+
+
+
+footer{
+  background-color: rgb(100, 100, 204);
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: center;
+}
+
+footer>div{
+  background-color: aliceblue;
+  margin: 10px;
+  height: 40px;
+  max-width: 600px;
+  flex-basis: 45%;
+}
+
