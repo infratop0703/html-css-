@@ -1,0 +1,17 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color:#6c6b6b
+}
+
+.flex{
+  display: flex;
+  background-color: #00c7ce;
+}
+
+.flex>div{
+  width: 33%;
+  height: 300px;
+}
