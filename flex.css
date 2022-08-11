@@ -10,6 +10,11 @@
   display: flex;
   background-color: #00c7ce;
 }
+.flex2{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
 
 .flex>div{
   width: 33%;
@@ -19,12 +24,12 @@
 }
 
 .button{
+  /* flexレイアウトによる中央揃え; */
   display: flex;
   justify-content: center;
   align-items: center;
   width: 200px;
   min-height: 100px;
   padding: 10px;
-  color: #fff;
-  background-color: #00c7ce;
+  color: #00c7ce;
 }
